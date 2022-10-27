@@ -1,4 +1,4 @@
-# isy-checkstyle-config
+# IsyFact Checkstyle Rules
 
 ## Usage
 
@@ -6,10 +6,10 @@
 
 `isy-checkstyle-config` is already configured if using one of the following Maven parents.
 
-|Module|Min. Version|
-|---|---|
-|`isyfact-standards`|2.2.0-SNAPSHOT |
-|`isyfact-erweiterungen`| 2.1.1, 1.8.2|
+| Module                  | Version                |
+|-------------------------|------------------------|
+| `isyfact-standards`     | &ge; 2.2.0             |
+| `isyfact-erweiterungen` | &ge; 2.1.1, &ge; 1.8.2 |
 
 ### Integration as plugin configuration
 
