@@ -23,7 +23,7 @@ jobs:
 
   Deploy:
     needs: [Compile]
-    uses: IsyFact/isyfact-standards/.github/workflows/maven_deploy_template.yml@feature/master
+    uses: IsyFact/isyfact-standards/.github/workflows/maven_deploy_template.yml@master
     with:
       version: ${{ github.ref_name }}
 
